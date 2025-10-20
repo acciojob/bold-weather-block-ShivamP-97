@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  background: linear-gradient(to bottom right, #b96fa1, #5a3f8c);
+  background: linear-gradient(rgb(185, 111, 161), rgb(90, 63, 140));
   color: white;
   padding: 20px;
 }
@@ -15,7 +15,7 @@ body {
 .selected-location {
   font-size: 25px;
   font-weight: 600;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
   margin-bottom: 30px;
 }
 
