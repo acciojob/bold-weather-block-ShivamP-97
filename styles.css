@@ -1,1 +1,50 @@
 /*  your css code here. If applicable */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to bottom right, #b96fa1, #5a3f8c);
+  color: white;
+  padding: 20px;
+}
+
+.app-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.selected-location {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 30px;
+}
+
+.weather-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.weather-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.item-temp {
+  font-size: 20px;
+}
+
+.item-temp-number1 {
+  font-weight: 600;
+}
+
+@media (min-width: 900px) {
+  .weather-block {
+    flex-direction: row;
+  }
+  .weather-item {
+    flex: 1;
+  }
+}
